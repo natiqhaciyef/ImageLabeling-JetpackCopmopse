@@ -74,7 +74,7 @@ fun AppTheme(content: @Composable () -> Unit) {
             color = MaterialTheme.colors.background
         ) {
             content()
-            ProductDetectorScreen()
+            ProductLabelingScreen()
         }
     }
 }
