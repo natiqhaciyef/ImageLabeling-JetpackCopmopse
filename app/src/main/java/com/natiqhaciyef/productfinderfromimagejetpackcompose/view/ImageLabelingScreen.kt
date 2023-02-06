@@ -124,7 +124,7 @@ fun ProductLabelingScreen() {
                 color = MaterialTheme.colors.reverseThemeModeColor
             )
         }
-//        objectDetection(imageData, detectedObject)
+
         labelDetector(labelDetector, imageData)
 
         if (detectedObject.value != null) {
@@ -194,10 +194,7 @@ fun labelDetector(label: MutableState<MutableList<ImageLabel>>, imageData: Mutab
             .addOnSuccessListener { labels ->
                 label.value = labels
             }
-            .addOnFailureListener { e ->
-
-
-            }
+            .addOnFailureListener { e -> }
     }
 }
 

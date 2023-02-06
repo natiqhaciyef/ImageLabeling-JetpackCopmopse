@@ -26,7 +26,6 @@ import androidx.compose.ui.unit.sp
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContentProviderCompat
 import androidx.core.content.ContextCompat
-import com.google.android.material.snackbar.Snackbar
 import com.natiqhaciyef.productfinderfromimagejetpackcompose.R
 
 @Preview

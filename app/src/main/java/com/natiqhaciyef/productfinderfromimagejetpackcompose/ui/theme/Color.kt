@@ -8,7 +8,6 @@ val Purple700 = Color(0xFF3700B3)
 val Teal200 = Color(0xFF03DAC5)
 
 val White = Color(0xFFFFFFFF)
-val Black = Color(0xFF000000)
 
 val DarkBlue = Color(0xff001667)
 val Blue = Color(0xff016FC3)
@@ -38,3 +37,11 @@ val LightBrown = Color(0xFFFFCEBE)
 val DarkAquatic = Color(0xff005662)
 val Aquatic = Color(0xff00bcd4)
 val LightAquatic = Color(0xff88ffff)
+
+val ExtraLightGray = Color(0xFFE4E4E4)
+val Transparent = Color(0x00000000)
+
+val DropDownSelectedLight = Color(0xFFFFAD46)
+val DropDownSelectedDark = Color(0xFFFF6F42)
+
+val Black = Color(0xFF000000)
